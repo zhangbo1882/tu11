@@ -47,4 +47,3 @@ class tu11Spider(CrawlSpider):
                 self.counter += 1
                 nextUrl = self.base_url+line
                 yield self.generate_request_with_image_name(nextUrl)
-                return
